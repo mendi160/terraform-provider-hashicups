@@ -39,6 +39,7 @@ func Provider() terraform.ResourceProvider {
 
 		ResourcesMap: map[string]*schema.Resource{
 			"athenz_sub_domain": ResourceSubDomain(),
+			"athenz_group": ResourceGroup(),
 		},
 
 		ConfigureFunc: configProvider,

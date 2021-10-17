@@ -1,11 +1,11 @@
----
 page_title: "hashicups Provider"
 subcategory: ""
 description: |-
-    Terraform provider for interacting with ZMS API
+Terraform provider for interacting with ZMS API
 ---
 
 # hashicups Provider
+
 
 
 ### Required
